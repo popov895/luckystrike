@@ -76,16 +76,10 @@ footer p {
 }
 
 .button:hover {
-    background: #231f20;
+    background: transparent;
     border-color: #d62132;
     color: #d62132;
 }
-
-/*@media only screen and (orientation: portrait) {
-    header {
-        background-image: url(header-portrait.jpg);
-    }
-}*/
 
 @media only screen and (min-width: 480px) and (min-height: 480px) {
     body {
