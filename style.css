@@ -1,15 +1,15 @@
 html {
-    height: 100%;
-    width: 100%;
+    background: #231f20;
+    color: #fefefe;
+    width: 100vw;
+    height: 100vh;
 }
 
 body {
-    background: #231f20;
-    color: #fefefe;
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    height: 100%;
-    width: 100%;
+    font-size: 1.25em;
+    width: 100vw;
+    height: 100vh;
     margin: 0px;
 }
 
@@ -18,32 +18,34 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
+    gap: 30px;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
     box-sizing: border-box;
 }
 
 header .logo {
-    height: 120px;
     width: 120px;
+    height: 120px;
 }
 
 header .separator {
     flex-grow: 1;
 }
 
-header .title {
+header h1 {
     font-size: 4em;
+    margin: 0px;
 }
 
-header .description {
+header h2 {
     font-size: 2em;
+    margin: 0px;
 }
 
 main {
-    padding: 5px 20px;
+    padding: 10px 40px;
 }
 
 main h3 {
@@ -53,7 +55,7 @@ main h3 {
 footer {
     background: url(footer.png) 50% 50% / cover;
     background-size: cover;
-    padding: 5px 20px 20px 20px;
+    padding: 10px 40px 40px 40px;
 }
 
 footer h2 {
@@ -79,23 +81,4 @@ footer p {
     background: transparent;
     border-color: #d62132;
     color: #d62132;
-}
-
-@media only screen and (min-width: 480px) and (min-height: 480px) {
-    body {
-        font-size: 20px;
-    }
-
-    header {
-        gap: 30px;
-        padding: 40px;
-    }
-
-    main {
-        padding: 10px 40px;
-    }
-
-    footer {
-        padding: 10px 40px 40px 40px;
-    }
 }
