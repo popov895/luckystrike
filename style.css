@@ -20,7 +20,7 @@ header {
     align-items: flex-start;
     gap: 30px;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding: 40px;
     box-sizing: border-box;
 }
@@ -28,6 +28,15 @@ header {
 header .logo {
     width: 120px;
     height: 120px;
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
 }
 
 header .separator {
