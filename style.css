@@ -60,7 +60,7 @@ main {
 
 main h3 {
     color: #9da274;
-    font-size: 2em;
+    font-size: 1.65em;
 }
 
 footer {
@@ -71,6 +71,10 @@ footer {
 
 footer h2 {
     color: #9da274;
+    font-size: 1.65em;
+}
+
+footer h3 {
     font-size: 2em;
 }
 
